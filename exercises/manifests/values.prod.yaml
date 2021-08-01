@@ -1,0 +1,7 @@
+namespace name:prod
+replica count:2
+image repository:nginx
+image tag: 1.17.0
+resources:CPU 70m and 256M
+service port:80
+configma data: "version: 1.17.0"
